@@ -207,13 +207,13 @@ footer {
     }
     footer {
         width: 100%;
-        top: 90%;
-        left: 1%
+        top: 92%;
+        left: -4%
     }
     #about-me {
         color: rgb(179, 179, 179);
         font-family: 'Poppins', sans-serif;
-        margin-left: 0.8rem;
+        margin-left: 2rem;
         margin-top: 10rem;
     }
     #about-me img {
@@ -233,7 +233,7 @@ footer {
 
 @media screen and (max-width:320px) {
     body {
-        height: 120vh;
+        height: 150vh;
         font-size: 60%;
     }
     .container {
@@ -243,7 +243,7 @@ footer {
         align-self: center;
         justify-self: center;
         width: 90%;
-        height: 95%;
+        height: 100%;
     }
     #technologies {
         color: rgb(179, 179, 179);
@@ -255,7 +255,7 @@ footer {
     }
     footer {
         width: 100%;
-        top: 90%;
+        top: 93%;
         left: 1%
     }
     #about-me {
@@ -271,7 +271,7 @@ footer {
         margin-left: 2rem;
     }
     .tech-container {
-        margin-left: 10%;
+        margin-left: -3%;
     }
 }
 
@@ -279,6 +279,21 @@ footer {
     body {
         height: 100vh;
         font-size: 60%;
+    }
+    .container {
+        background-color: rgb(71, 71, 71);
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        width: 90%;
+        height: 95%;
+    }
+}
+
+@media screen and (max-height:665px) {
+    body {
+        height: 100vh;
+        font-size: 70%;
     }
     .container {
         background-color: rgb(71, 71, 71);
